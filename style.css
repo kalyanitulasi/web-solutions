@@ -36,6 +36,7 @@
     width: 100%;
     padding-top: 50px;
     justify-content: center;
+    
 }
 
 .hero-grid-container{
@@ -44,6 +45,7 @@
 
 .index-main{
     padding-bottom: 100px;
+
 }
 
 .index-hero img{
@@ -828,7 +830,124 @@
     display: block;
   }
 
-  @media (max-width:600px){
+  @media (max-width:470px){
+
+.index-main{
+    padding-bottom: 20px;
+    background-color: aliceblue;
+}
+.index-hero img{
+    width: 227%;
+}
+
+.hero-content{
+    width: 140%;
+    line-height: 30px;
+}
+
+.hero-grid{
+    top: 270px;
+    left: 360px;
+    position: absolute;
+
+}
+
+
+.hero-content h2{
+    font-size: 36px;
+    text-align: center;
+    
+}
+.hero-content h3{
+    font-size: 30px;
+}
+
+
+.hero-content p{
+    font-size: 23px;
+}
+.buttons{
+    display: none;
+}
+
+.main-section{
+    background-color: aliceblue;
+    width: 227%;
+}
+
+.right-content{
+    width: 50%;
+    margin-left: 50px;
+}
+
+.right-content h2{
+    font-size: 30px;
+}
+
+.right-content p{
+    font-size: 16px;
+}
+
+.left-img1 img{
+    display: none;
+}
+
+.left-img2 img{
+    margin-left: 50px;
+    height: 500px;
+}
+
+.middle-content{
+    
+}
+.head-tags{
+    width: 100%;
+}
+
+.head-tags h3{
+    font-size: 29px;
+    margin-left: -80px;
+}
+.head-tags h2{
+    font-size: 30px;
+    margin-left: -70px;
+}
+.bottom-section{
+    width: 217%;
+}
+.bottom-container h2{
+    font-size: 30px;
+    width: 70%;
+}
+
+.bottom-container p{
+    font-size: 20px;
+    width: 69%;
+}
+
+.hero-footer-grid{
+    grid-template-columns: repeat(4,1fr);
+    display: grid;
+}
+
+.footer-card{
+    padding: 50px;
+    opacity: 0;
+    transform: translatey(100px);
+    transition: 0.7s ease;
+}
+
+.footer-card.show{
+    opacity: 1;
+    transform: translateY(0);
+}
+.hero-footer{
+    width: 217%;
+}
+
+}
+
+  @media (min-width:470px){
 
 .index-main{
     padding-bottom: 100px;
